@@ -5,8 +5,8 @@ const API_KEY = '2f1acaa8312e3757b7c5843e62783e00effae84b2aebb29fd6ce0d8950f9bdf
 
 
 const axiosClient=axios.create({
-    //baseURL:'http://localhost:1337/api/',
-   baseURL:'https://ai-resume-builder-strapi-admin-2k6y.onrender.com/api/',
+    baseURL:'http://localhost:1337/api/',
+//    baseURL:'https://ai-resume-builder-strapi-admin-2k6y.onrender.com/api/',
     headers:{
         'Content-Type':'application/json',
         'Authorization':`Bearer ${API_KEY}`
